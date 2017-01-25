@@ -1,0 +1,211 @@
+﻿body {
+    font-family: Segoe UI, Arial, Helvetica, Sans-Serif;
+    color: #333;
+    font-size: 12px;
+    margin: 0;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, .labels {
+    font-family: Trebuchet MS, Arial, Sans-Serif;
+    font-size: 12pt;
+}
+
+h2 {
+    color: #638CC6;
+}
+
+.top {
+    margin: 5px 0 0 0;
+    padding: 10px;
+    border-bottom: solid 1px black;
+    height: 102px;
+}
+
+.topmenu {
+    border: solid 1px Navy;
+    height: 37px;
+    background-color: #638CC6;
+}
+
+.menucontainer {
+    position: absolute;
+    left: 15%;
+    text-align: center;
+}
+
+.menuitem {
+    float: left;
+    font-family: Trebuchet MS, Sans-Serif;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 9px 15px;
+    height: 17px;
+    border-right: 1px solid #4F76AE;
+}
+
+    .menuitem a {
+        color: White;
+    }
+
+    .menuitem:hover {
+        background-color: #000080;
+    }
+
+.first {
+    border-left: 1px solid #4F76AE;
+}
+
+.logo {
+    position: absolute;
+    left: 15%;
+}
+
+.left {
+    float: left;
+    top: 150px;
+    height: 800px;
+    width: 15%;
+    margin: 0;
+    border: 0;
+}
+
+.bottom {
+    position: relative;
+    bottom: -15px;
+    width: 100%;
+    text-align: center;
+}
+
+.bottom p {
+    font-size: 8pt;
+    color: #638CC6;
+}
+
+.content {
+    float: left;
+    top: 150px;
+    width: 65%;
+    height: 800px;
+    margin: 0;
+    border: 0;
+}
+
+.automotive_col {
+    float: left;
+    width: 100%;
+    margin: 5px;
+}
+
+.soft_dev_col {
+    float: right;
+    width: 40%;
+    margin: 5px;
+}
+
+.single_content_col {
+    margin: 5px 20px;
+    padding: 10px 30px;
+}
+
+.tblogo {
+    float: right;
+    right: 0;
+}
+
+.contacts {
+    float: left;
+    margin: 0 0 5px 5px;
+    padding-left: 3px;
+    width: 75%;
+    font-family: Trebuchet MS, Arial, Sans-Serif;
+    font-size: 14pt;
+}
+
+.contacts li {
+    list-style-type: circle;
+    font-size: medium;
+    left: 0;
+}
+
+.thumbnail {
+    float: left;
+    padding: 0;
+    width: 100%;
+    font-family: Trebuchet MS, Arial, Sans-Serif;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.thumbnail ul {
+    list-style-type: none;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.thumbnail li {
+    font-style: normal;
+    left: 0;
+}
+
+.thumbnail h3 
+{
+    font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.thumbnail li div img {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.thumbnail li p {
+    font: 200 16px/1.5  Helvetica, Verdana, sans-serif;
+}
+
+.thumbnail li {
+    padding: 10px;
+    overflow: auto;
+}
+
+.thumbnail li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+
+.mailaddr li {
+    margin-bottom: 0;
+}
+
+.labels {
+    float: left;
+    width: 15%;
+    height: 23px;
+}
+
+.boxes {
+    float: right;
+    right: 0;
+    width: 75%;
+}
+
+.submit_btn {
+    float: right;
+    right: 0;
+}
+
+/*div {
+    margin: 20px;
+}*/
+
+
+
