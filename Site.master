@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>eBenchmark-Plus</title>
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="Content/bootstrap-support-ie10-width.css" rel="stylesheet" />
     <link rel="Shortcut Icon" href="/images/favicon.png" type="image/x-icon" />
 </head>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </nav>
-            <div>
+            <div class="container">
                 <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
