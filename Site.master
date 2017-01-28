@@ -13,6 +13,7 @@
     <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="Content/bootstrap-support-ie10-width.css" rel="stylesheet" />
     <link rel="Shortcut Icon" href="/images/favicon.png" type="image/x-icon" />
+    <link href="Content/ebp.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
