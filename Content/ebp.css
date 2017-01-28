@@ -1,8 +1,6 @@
-﻿/*.row.match-my-cols {
-    overflow: hidden; 
+﻿.contact-name{
+    font-family: 'Trebuchet MS', Arial, Sans-Serif; 
+    font-size: 16pt; 
+    font-weight: bold; 
+    color: #008080;
 }
-
-.row.match-my-cols [class*="col-"]{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-}*/
