@@ -41,9 +41,9 @@
 
     <h2 class="text-center">Learn more about Benchmarking</h2>
 
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-6 col-md-offset-3">
                 <div class="thumbnail">
                     <img src="Images/City of LA Logo.png" alt="CityOfLA_Logo" />
                     <div class="caption">
@@ -53,7 +53,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4">
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-md-offset-3">
                 <div class="thumbnail">
                     <img src="Images/LABBC.png" alt="LABBC_Logo" />
                     <div class="caption">
@@ -63,7 +65,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4">
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-md-offset-3">
                 <div class="thumbnail">
                     <img src="Images/CA%20header_img.png" alt="CAState_Logo" />
                     <div class="caption">
