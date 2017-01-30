@@ -2,10 +2,10 @@
 
 <asp:Content ID="defaultMainContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h1 class="text-center">Welcome to eBenchmark Plus</h1>
+    <h1>Welcome to eBenchmark Plus</h1>
     <div class="row">
         <div class="col-md-12">
-            <p class="text-center">
+            <p>
                 eBenchmarkPlus is a subsidiary of Energy Design Inc. (EDI). EDI has been in business, serving the greater Los
                 Angeles area for over 20 years.
             </p>
@@ -14,11 +14,11 @@
 
     <hr />
 
-    <h2 class="text-center">Benchmarking</h2>
+    <h2>Benchmarking</h2>
 
     <div class="row">
         <div class="col-md-12">
-            <p class="text-center">
+            <p>
                 eBenchmarkPlus was created to address and assist commercial companies, colleges and universities as well as others to meet
                 the new 2017 Los Angeles Energy Disclosure Law which mandates Energy Benchmarking, Audits and retro-commissioning.
             </p>
@@ -27,11 +27,11 @@
 
     <hr />
 
-    <h2 class="text-center">Metering & Verification</h2>
+    <h2>Metering & Verification</h2>
 
     <div class="row">
         <div class="col-md-12">
-            <p class="text-center">
+            <p>
                 eBenchmarkPlus also specializes in Metering and Verification (M&V) and Sub-metering of electric, water and natural gas.
             </p>
         </div>
@@ -39,11 +39,11 @@
 
     <hr />
 
-    <h2 class="text-center">Learn more about Benchmarking</h2>
+    <h2>Learn more about Benchmarking</h2>
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-md-offset-3">
+            <div class="col-sm-6 col-md-8">
                 <div class="thumbnail">
                     <img src="Images/City of LA Logo.png" alt="CityOfLA_Logo" />
                     <div class="caption">
@@ -55,7 +55,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-md-offset-3">
+            <div class="col-sm-6 col-md-8">
                 <div class="thumbnail">
                     <img src="Images/LABBC.png" alt="LABBC_Logo" />
                     <div class="caption">
@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-6 col-md-offset-3">
+            <div class="col-sm-6 col-md-8">
                 <div class="thumbnail">
                     <img src="Images/CA%20header_img.png" alt="CAState_Logo" />
                     <div class="caption">
