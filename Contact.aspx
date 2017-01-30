@@ -8,28 +8,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-6">
-                    <table class="table">
-                        <tr>
-                            <td class="contact-name">Wayne Bausman</td>
-                        </tr>
-                        <tr>
-                            <td>Phone - (951) 203-3387</td>
-                        </tr>
-                        <tr>
-                            <td>Email - <a href="mailto:wayne@ebenchmarkplus.com">wayne@ebenchmarkplus.com</a></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h3>BIO</h3>
-                                <ul>
-                                    <li>President and Co-ownder of Energy Design, Inc (21 years)</li>
-                                    <li>Southern California Edison -- 37 years (retired 1994), Service Planner -- 1969 - 1994</li>
-                                    <li>Service Leave from SCE for active service in U.S. Navy -- 1962 - 1964</li>
-                                    <li>Bachelor of Science Degree -- 1974 from California State University Los Angeles</li>
-                                    <li>Association of Energy Engineers (AEE) -- 21 years</li>
-                                </ul>
-                            </td>
-                        </tr>
+                    <table class="table">                        
                         <tr>
                             <td class="contact-name">Debbie Smith</td>
                         </tr>
@@ -63,6 +42,27 @@
                                     <li>IT Professional with 25 years experience in software systems architecture, application and website development, 
                                         database design and development, business and systems analysis across multiple fields including healthcare and automotive.</li>
                                     <li>Bachelor of Arts -- Illinois State University, Bloomington-Normal, Illinois</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="contact-name">Wayne Bausman</td>
+                        </tr>
+                        <tr>
+                            <td>Phone - (951) 203-3387</td>
+                        </tr>
+                        <tr>
+                            <td>Email - <a href="mailto:wayne@ebenchmarkplus.com">wayne@ebenchmarkplus.com</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>BIO</h3>
+                                <ul>
+                                    <li>President and Co-ownder of Energy Design, Inc (21 years)</li>
+                                    <li>Southern California Edison -- 37 years (retired 1994), Service Planner -- 1969 - 1994</li>
+                                    <li>Service Leave from SCE for active service in U.S. Navy -- 1962 - 1964</li>
+                                    <li>Bachelor of Science Degree -- 1974 from California State University Los Angeles</li>
+                                    <li>Association of Energy Engineers (AEE) -- 21 years</li>
                                 </ul>
                             </td>
                         </tr>
