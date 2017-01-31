@@ -20,7 +20,7 @@
         <div class="col-md-12">
             <p>
                 eBenchmarkPlus was created to address and assist commercial companies, colleges and universities as well as others to meet
-                the new 2017 Los Angeles Energy Disclosure Law which mandates Energy Benchmarking, Audits and retro-commissioning.
+                the new 2017 Los Angeles Energy Disclosure Law and CA AB 802 which both mandate Energy Benchmarking, Audits and Retro-commissioning.
             </p>
         </div>
     </div>
@@ -32,7 +32,7 @@
     <div class="row">
         <div class="col-md-12">
             <p>
-                eBenchmarkPlus also specializes in Metering and Verification (M&V) and Sub-metering of electric, water and natural gas.
+                eBenchmarkPlus also specializes in Metering and Verification (M&V), Sub-metering of electric, water and natural gas, and electrical testing.
             </p>
         </div>
     </div>

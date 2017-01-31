@@ -40,8 +40,8 @@
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="Default.aspx">Home</a></li>
                             <li><a href="Contact.aspx">Contact Us</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#whybenchmark">Why Benchmark?</a></li>
+                            <li><a href="Services.aspx">Services</a></li>
+                            <li><a href="WhyBenchmark.aspx">Why Benchmark?</a></li>
                         </ul>
                     </div>
                 </div>

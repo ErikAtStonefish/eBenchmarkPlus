@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 
-public partial class Products : System.Web.UI.Page
+public partial class _Services : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
