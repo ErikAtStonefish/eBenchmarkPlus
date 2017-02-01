@@ -1,4 +1,8 @@
-﻿.contact-name{
+﻿body{
+    padding-top: 70px;
+}
+
+.contact-name{
     font-family: 'Trebuchet MS', Arial, Sans-Serif; 
     font-size: 16pt; 
     font-weight: bold; 
