@@ -2,7 +2,7 @@
 
 <asp:Content ID="defaultMainContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h1>Welcome to eBenchmark Plus</h1>
+    <h1>Welcome to eBenchmarkPlus</h1>
     <div class="row">
         <div class="col-md-12">
             <p>
