@@ -16,7 +16,7 @@
     <link href="Content/ebp.css" rel="stylesheet" type="text/css" />
     <link href="Content/sticky-footer.css" rel="stylesheet" type="text/css" />
 </head>
-<body data-spy="scroll" data-target="navbar">
+<body>
     <form id="form1" runat="server">
         <div>
             <nav class="navbar navbar-default navbar-fixed-top">
@@ -28,11 +28,12 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a href="#" class="navbar-brand"><img src="Images/Logos/eBenchmark_plus_logo.png" /></a>
+                        <a href="#" class="navbar-brand">
+                            <img src="Images/Logos/eBenchmark_plus_logo.png" /></a>
                     </div>
-                    <div id="navbar" class="collapse navbar-collapse">
+                    <div id="navbar" class="collapse navbar-collapse" role="navigation">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="Default.aspx">Home</a></li>
+                            <li><a href="Default.aspx">Home</a></li>
                             <li><a href="Contact.aspx">Contact Us</a></li>
                             <li><a href="Services.aspx">Services</a></li>
                             <li><a href="WhyBenchmark.aspx">Why Benchmark?</a></li>
@@ -48,7 +49,11 @@
 
         <footer class="footer">
             <div class="container">
-                <p class="text-muted text-center">Copyright ©2017 eBenchmarkPlus. All Rights Reserved.</p>
+                <div class="row">                    
+                    <div class="col-md-12">
+                        <p class="text-muted text-center">Copyright ©2017 eBenchmarkPlus. All Rights Reserved.</p>
+                    </div>
+                </div>
             </div>
         </footer>
     </form>
@@ -56,5 +61,25 @@
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/bootstrap-support-ie10-width.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var url = window.location;
+            //$('ul.nav a[href="' + url + '"]').parent().addClass('active');
+            var i = $('ul.nav a').filter(function () {
+                return this.href == url;
+            }).length;
+
+            if (i == 1) {
+                $('ul.nav a').filter(function () {
+                    return this.href == url;
+                }).parent().addClass('active');
+            } else {
+                $('ul.nav li').first().addClass('active');
+            }
+        });
+
+    </script>
+
 </body>
 </html>

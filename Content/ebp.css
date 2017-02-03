@@ -1,6 +1,6 @@
 ﻿body{
     padding-top: 70px;
-    position: relative;
+    /*position: relative;*/
 }
 
 .contact-name{
@@ -62,12 +62,12 @@ p {
   color: #23905c;
   background-color: #eaf1f4;
 }
-.navbar-default .navbar-nav > .open > a,
+/*.navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #23905c;
   background-color: #eaf1f4;
-}
+}*/
 .navbar-default .navbar-toggle {
   border-color: #eaf1f4;
 }
