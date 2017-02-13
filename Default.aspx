@@ -2,19 +2,7 @@
 
 <asp:Content ID="defaultMainContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h1>Welcome to eBenchmarkPlus</h1>
-    <div class="row">
-        <div class="col-md-12">
-            <p>
-                eBenchmarkPlus is a subsidiary of Energy Design Inc. (EDI). EDI has been in business, serving the greater Los
-                Angeles area for over 20 years.
-            </p>
-        </div>
-    </div>
-
-    <hr />
-
-    <h2>Benchmarking</h2>
+   <h2>Benchmarking</h2>
 
     <div class="row">
         <div class="col-md-12">
@@ -40,7 +28,7 @@
     <hr />
 
     <h2>Learn more about Benchmarking</h2>
-
+    
     <div class="container">
         <div class="row">
             <div class="col-sm-6 col-md-8">
