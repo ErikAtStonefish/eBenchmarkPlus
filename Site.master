@@ -3,7 +3,7 @@
 <%--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">--%>
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,7 +11,7 @@
     <title>eBenchmarkPlus</title>
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
     <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="Content/bootstrap-support-ie10-width.css" rel="stylesheet" />
+
     <link rel="Shortcut Icon" href="/images/favicon.png" type="image/x-icon" />
     <link href="Content/ebp.css" rel="stylesheet" type="text/css" />
     <link href="Content/sticky-footer.css" rel="stylesheet" type="text/css" />
@@ -19,7 +19,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <nav class="navbar navbar-default navbar-fixed-top">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -65,7 +65,9 @@
 
     <script src="Scripts/jquery-1.9.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    <script src="Scripts/bootstrap-support-ie10-width.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" 
+        integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" 
+        crossorigin="anonymous"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
