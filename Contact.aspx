@@ -24,7 +24,7 @@
                                 <ul>
                                     <li>Project Management Professional (PMP) of electrical testing, M&amp;V, sub-metering, EV chargers, photovoltaic, battery storage, and lighting retrofit and control projects (26 years)</li>
                                     <li>Bachelor of Science -- California State University, Long Beach</li>
-                                    <li>CA Member of AEE, PMI, USGBC</li>
+                                    <li>Member of AEE, PMI, USGBC</li>
                                 </ul>
 
                             </td>

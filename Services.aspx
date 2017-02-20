@@ -12,7 +12,12 @@
             </p>
 
             <p>
-                eBenchmarkPlus also conducts ASHRAE Level Ⅰ audits which allows us to assist building owners and managers to find 
+                Your building(s) may be eligible for ENERGY STAR® certification. Buildings that score 75 and better will be exempt from retro-commissioning (RCx) and
+                ASHRAE Level II requirements. RCx &amp; ASHRAE Level II compliance starts in January, 2019.
+            </p>
+
+            <p>
+                eBenchmarkPlus also conducts preliminary on-site and ASHRAE Level Ⅰ audits which allows us to assist building owners and managers to find 
                 those “no-cost” or “low-cost” energy savings opportunities.
             </p>
 
@@ -26,7 +31,7 @@
                 <li>Electrical Testing</li>
                 <li>Lighting Retrofit & Controls</li>
                 <li>ASHRAE Level Ⅱ & Level Ⅲ Audits</li>
-                <li>Retro-commisioning</li>
+                <li>Retro-commisioning (RCx)</li>
             </ul>
 
             <p><a href="Contact.aspx">Contact us</a> for a free consultation!</p>
