@@ -8,8 +8,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>eBenchmarkPlus</title>
+
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
     <link href="Content/bootstrap.css" rel="stylesheet" type="text/css" />
 
     <link rel="Shortcut Icon" href="/images/favicon.png" type="image/x-icon" />
@@ -18,34 +21,31 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <nav class="navbar navbar-inverse navbar-fixed-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a href="#" class="navbar-brand">
-                            <img src="Images/Logos/eBenchmark_plus_logo.png" /></a>
-                    </div>
-                    <div id="navbar" class="collapse navbar-collapse" role="navigation">
-                        <ul class="nav navbar-nav">
-                            <li><a href="Default.aspx">Home</a></li>
-                            <li><a href="Services.aspx">Services</a></li>
-                            <li><a href="WhyBenchmark.aspx">Why Benchmark?</a></li>
-                            <li><a href="Contact.aspx">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+
+        <nav class="navbar navbar-toggleable-sm navbar-light fixed-top">
             <div class="container">
-                <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                </asp:ContentPlaceHolder>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="#" class="navbar-brand">
+                    <img src="Images/Logos/eBenchmark_plus_logo.png" class="d-inline-block align-top" />
+                </a>
+
+                <div id="navbarMenu" class="collapse navbar-collapse" role="navigation">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a href="Default.aspx" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="Services.aspx" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="WhyBenchmark.aspx" class="nav-link">Why Benchmark?</a></li>
+                        <li class="nav-item"><a href="Contact.aspx" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
         </div>
+
 
         <footer class="footer">
             <div class="container">
@@ -63,16 +63,16 @@
         </footer>
     </form>
 
-    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" 
-        integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"
+        integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB"
         crossorigin="anonymous"></script>
 
     <script type="text/javascript">
         $(document).ready(function () {
             var url = window.location;
-            //$('ul.nav a[href="' + url + '"]').parent().addClass('active');
+
             var i = $('ul.nav a').filter(function () {
                 return this.href == url;
             }).length;

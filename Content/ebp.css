@@ -15,72 +15,29 @@ p {
 }
 
 /*Override the navbar-default colors with color scheme*/
-.navbar-default {
-  background-color: #77a92d;
-  border-color: #b3ec5f;
-}
-.navbar-default .navbar-brand {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #021105;
-}
-.navbar-default .navbar-text {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #021105;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #021105;
-  background-color: #b3ec5f;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #021105;
-  background-color: #b3ec5f;
-}
-.navbar-default .navbar-toggle {
-  border-color: #b3ec5f;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #b3ec5f;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ecf0f1;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ecf0f1;
-}
-.navbar-default .navbar-link {
-  color: #ecf0f1;
-}
-.navbar-default .navbar-link:hover {
-  color: #021105;
+nav {    
+    background-color: #77a92d;
+    border-color: #b3ec5f;
 }
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ecf0f1;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #021105;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+/*.navbar-light .container .collapse*/
+
+.navbar-nav .nav-item .active {
     color: #021105;
     background-color: #b3ec5f;
-  }
+    border-color: #b3ec5f;
+    font-weight: normal;
+    border: 1px solid #f0f0f0;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:focus { 
+    color: azure;
 }
