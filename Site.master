@@ -28,7 +28,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a href="#" class="navbar-brand">
-                    <img src="Images/Logos/eBenchmark_plus_logo.png" class="d-inline-block align-top" />
+                    <img src="Images/Logos/ebplus_logo.png" class="d-inline-block align-top" />
                 </a>
 
                 <div id="navbarMenu" class="collapse navbar-collapse" role="navigation">
@@ -41,6 +41,16 @@
                 </div>
             </div>
         </nav>
+
+        <div class="container">
+            <div class="banner">
+
+                <div class="ebplogo">
+                    <img src="Images/Logos/eBenchmarkPlus_Logo.png" class="d-inline-block" />
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
@@ -64,10 +74,11 @@
     </form>
 
     <script src="Scripts/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"
-        integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB"
-        crossorigin="anonymous"></script>
+
+
 
     <script type="text/javascript">
         $(document).ready(function () {

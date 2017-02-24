@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" MasterPageFile="~/Site.master" %>
 
-<asp:Content ID="defaultMainContent" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="defaultMainContent" ContentPlaceHolderID="MainContent" runat="server">      
 
     <h2>Benchmarking</h2>
 
@@ -43,7 +43,7 @@
                 <div id="lacity" class="tab-pane active" role="tabpanel">
                     <div class="jumbotron">
                         <div class="thumbnail">
-                            <img src="Images/City of LA Logo.png" alt="CityOfLA_Logo" />
+                            <img src="Images/City of LA Logo_trans.png" alt="CityOfLA_Logo" />
                             <div class="caption">
                                 <h3>Los Angeles Ordinance No. 184674</h3>
                                 <p>ARTICLE 1, DIVISION 97 EXISTING BUILDINGS ENERGY AND WATER EFFICIENCY PROGRAM: Link to the Los Angeles ordinance mandating benchmarking.</p>

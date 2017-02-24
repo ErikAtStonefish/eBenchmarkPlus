@@ -20,9 +20,7 @@ nav {
     border-color: #b3ec5f;
 }
 
-/*.navbar-light .container .collapse*/
-
-.navbar-nav .nav-item .active {
+.nav-item .active {
     color: #021105;
     background-color: #b3ec5f;
     border-color: #b3ec5f;
@@ -40,4 +38,16 @@ nav {
 .navbar-nav .nav-item .nav-link:hover,
 .navbar-nav .nav-item .nav-link:focus { 
     color: azure;
+}
+
+.banner {
+    height: auto;
+    width: 100%;
+    border-bottom: inset;
+    margin-bottom: 22px;
+}
+
+.ebplogo {
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
