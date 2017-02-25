@@ -27,8 +27,8 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a href="#" class="navbar-brand">
-                    <img src="Images/Logos/ebplus_logo.png" class="d-inline-block align-top" />
+                <a href="#" class="navbar-brand mr-auto">
+                    <img src="Images/Logos/ebplus_logo.png" class="align-top float-left" />
                 </a>
 
                 <div id="navbarMenu" class="collapse navbar-collapse" role="navigation">

@@ -1,21 +1,21 @@
-﻿body{
+﻿body {
     padding-top: 70px;
     /*position: relative;*/
 }
 
-.contact-name{
-    font-family: 'Trebuchet MS', Arial, Sans-Serif; 
-    font-size: 16pt; 
-    font-weight: bold; 
+.contact-name {
+    font-family: 'Trebuchet MS', Arial, Sans-Serif;
+    font-size: 16pt;
+    font-weight: bold;
     color: #008080;
 }
 
 p {
-   font-size: 16px;
+    font-size: 16px;
 }
 
 /*Override the navbar-default colors with color scheme*/
-nav {    
+nav {
     background-color: #77a92d;
     border-color: #b3ec5f;
 }
@@ -36,7 +36,7 @@ nav {
 }
 
 .navbar-nav .nav-item .nav-link:hover,
-.navbar-nav .nav-item .nav-link:focus { 
+.navbar-nav .nav-item .nav-link:focus {
     color: azure;
 }
 
@@ -50,4 +50,10 @@ nav {
 .ebplogo {
     padding-bottom: 30px;
     padding-top: 30px;
+}
+
+@media (max-width: 767px) {
+    .navbar-toggleable-sm > .container {
+        min-width: 200px;
+    }
 }
