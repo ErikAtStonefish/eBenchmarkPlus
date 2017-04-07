@@ -12,8 +12,9 @@
             </p>
 
             <p>
-                Your building(s) may be eligible for ENERGY STAR® certification. Buildings that score 75 and better will be exempt from retro-commissioning (RCx) and
-                ASHRAE Level II requirements. RCx &amp; ASHRAE Level II compliance starts in January, 2019.
+                Your building(s) may be eligible for ENERGY STAR® certification. Buildings that score 75 and better will be exempt from ASHRAE Level II and
+                retro-commissioning (RCx) requirements. Buildings are also exempt when a 15% reduction in energy and 20% reduction in water usage for each reporting period is documented. 
+                ASHRAE Level II &amp; RCx compliance starts in January, 2019.
             </p>
 
             <p>
@@ -22,7 +23,40 @@
             </p>
 
             <p>
-                eBenchmarkPlus has partnered with other local professional companies to assist with and recommend (as required):
+                eBenchmarkPlus provides <b>consulting</b> and <b>project management</b> services for <b class="text-success">energy conservation opportunities</b> in:
+            </p>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <ul>
+                        <li>Electrical Systems</li>
+                        <li>Electric Motor &amp; Drives</li>
+                        <li>Lighting Systems</li>
+                        <li>HVAC</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <ul>
+                        <li>Compressed Air &amp; Pump Systems</li>
+                        <li>Boilers &amp; Steam Systems</li>
+                        <li>Building Envelope</li>
+                        <li>Thermal Energy Storage</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <ul>
+                        <li>Battery Storage</li>
+                        <li>CHP &amp; Renewable Energy</li>
+                        <li>Building Automation &amp; Control Systems</li>
+                        <li>Maintenance &amp; Commissioning</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="text-success font-weight-bold">Additionally offering assistance with rebates and financing.</p>
+
+            <p>
+                eBenchmarkPlus has partnered with other local professional companies to assist with installation services as follows:
             </p>
 
             <ul>
@@ -31,7 +65,7 @@
                 <li>Electrical Testing</li>
                 <li>Lighting Retrofit & Controls</li>
                 <li>ASHRAE Level Ⅱ & Level Ⅲ Audits</li>
-                <li>Retro-commisioning (RCx)</li>
+                <li>Retro-commissioning (RCx)</li>
             </ul>
 
             <p><a href="Contact.aspx">Contact us</a> for a free consultation!</p>
