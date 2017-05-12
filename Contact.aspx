@@ -22,6 +22,7 @@
                             <td>
                                 <h3>BIO</h3>
                                 <ul>
+                                    <li>Certified Energy Manager® (CEM®) - Association of Energy Engineers (AEE)</li>
                                     <li>Project Management Professional (PMP) of electrical testing, M&amp;V, sub-metering, EV chargers, photovoltaic, battery storage, and lighting retrofit and control projects (26 years)</li>
                                     <li>Bachelor of Science -- California State University, Long Beach</li>
                                     <li>Member of AEE, PMI, USGBC</li>
