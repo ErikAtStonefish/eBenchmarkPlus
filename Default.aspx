@@ -8,7 +8,8 @@
         <div class="col-md-12">
             <p>
                 eBenchmarkPlus was created to address and assist commercial companies, colleges and universities as well as others to meet
-                the new 2017 Los Angeles Energy Disclosure Law and CA AB 802 which both mandate Energy Benchmarking, Audits and Retro-commissioning.
+                the new 2017 Los Angeles Energy Disclosure Law and CA AB 802 which both mandate Energy Benchmarking, Audits and Retro-commissioning. City of Los Angeles Department of
+                Building &amp; Safety is the authoritative office overseeing Ordinance #184674, also known as the <b>Existing Buildings Energy & Water Efficiency Program</b> or <b>EBEWE</b>.
             </p>
         </div>
     </div>

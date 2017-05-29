@@ -22,8 +22,9 @@
                             <td>
                                 <h3>BIO</h3>
                                 <ul>
-                                    <li>Certified Energy Manager® (CEM®) - Association of Energy Engineers (AEE)</li>
-                                    <li>Project Management Professional (PMP) of electrical testing, M&amp;V, sub-metering, EV chargers, photovoltaic, battery storage, and lighting retrofit and control projects (26 years)</li>
+                                    <li>Certified Energy Manager (CEM®)</li>
+                                    <li>Project Management Professional (PMP®)</li>
+                                    <li>Electrical testing, M&amp;V, sub-metering, EV chargers, photovoltaic, battery storage, and lighting retrofit &amp; control projects (26 years)</li>
                                     <li>Bachelor of Science -- California State University, Long Beach</li>
                                     <li>Member of AEE, PMI, USGBC</li>
                                 </ul>
@@ -42,7 +43,7 @@
                                 <ul>
                                     <li>IT Professional with 25 years experience in software systems architecture, application and website development, 
                                         database design and development, business and systems analysis across multiple fields including healthcare and automotive.</li>
-                                    <li>Bachelor of Arts -- Illinois State University, Bloomington-Normal, Illinois</li>
+                                    <li>Bachelor of Arts — Illinois State University, Bloomington-Normal, Illinois</li>
                                 </ul>
                             </td>
                         </tr>
@@ -59,11 +60,11 @@
                             <td>
                                 <h3>BIO</h3>
                                 <ul>
-                                    <li>President and Co-ownder of Energy Design, Inc (21 years)</li>
-                                    <li>Southern California Edison -- 37 years (retired 1994), Service Planner -- 1969 - 1994</li>
-                                    <li>Service Leave from SCE for active service in U.S. Navy -- 1962 - 1964</li>
-                                    <li>Bachelor of Science Degree -- 1974 from California State University Los Angeles</li>
-                                    <li>Association of Energy Engineers (AEE) -- 21 years</li>
+                                    <li>President and Co-owner of Energy Design, Inc. (21 years)</li>
+                                    <li>Southern California Edison, 37 years (retired 1994), Service Planner (1969 - 1994)</li>
+                                    <li>Service Leave from SCE for active service in U.S. Navy (1962 - 1964)</li>
+                                    <li>Bachelor of Science Degree — 1974 from California State University Los Angeles</li>
+                                    <li>Association of Energy Engineers (AEE) (21 years)</li>
                                 </ul>
                             </td>
                         </tr>

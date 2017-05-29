@@ -21,11 +21,15 @@
             <h3>It is now Mandatory in the State of California and the City of Los Angeles</h3>
 
             <p>
-                Due to recent California legislation, utility tracking and benchmarking of certain buildings is no longer 
+                Due to recent California legislation, utility tracking and benchmarking of most buildings is no longer 
                 a choice but has become law. California passed a statewide mandatory annual energy benchmarking disclosure law. 
-                CA AB 802 was enacted and went into effect as of January 1st, 2017. The City of Los Angeles has also passed 
-                Ordinance #184674 and this city regulation requires certain buildings to perform energy benchmarks 
-                starting in 2017 as well.
+                CA AB 802 was enacted and went into effect as of January 1st, 2017. The City of Los Angeles now has passed 
+                Ordinance #184674 and this city regulation requires most buildings to perform energy benchmarking 
+                starting in 2017.
+            </p>
+            <p>
+                The Los Angeles Department of Building & Safety is the authoritative office overseeing the new ordinance known as the 
+                <b>Existing Buildings Energy & Water Efficiency Program</b> or <b>EBEWE</b>.
             </p>
         </div>
     </div>

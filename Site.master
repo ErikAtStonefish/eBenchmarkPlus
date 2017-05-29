@@ -9,7 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>eBenchmarkPlus</title>
+    <title>Los Angeles EBEWE Compliance Services | eBenchmarkPlus</title>
+
+    <meta name="description" content="eBenchmarkPlus.com, offering City of Los Angeles EBEWE Program Compliance, energy benchmarking and auditing 
+        services, as well as energy Project Management" />
 
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
 
