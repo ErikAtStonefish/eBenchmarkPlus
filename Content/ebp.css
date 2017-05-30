@@ -52,8 +52,7 @@ nav {
     padding-top: 30px;
 }
 
-/*@media (max-width: 767px) {
-    .navbar-toggleable-sm > .container {
-        min-width: 200px;
-    }
-}*/
+.ebptext {   
+    font-weight: bold;
+}
+

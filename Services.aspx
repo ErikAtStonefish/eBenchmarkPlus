@@ -7,8 +7,13 @@
         <div class="col-sm-6 col-md-12">
             <p>
                 At eBenchmarkPlus, our primary business is Utility Tracking & Benchmarking buildings in the greater Los Angeles Area. 
-                We utilize the EPA’s ENERGY STAR® Portfolio Manager® software and perform a preliminary on-site audit as now required 
-                by CA AB 802 and the City of Los Angeles Ordinance #184674 (starting in 2017).
+                We utilize the EPA’s <b>ENERGY STAR® Portfolio Manager®</b> software and perform a preliminary on-site audit.
+            </p>
+
+            <p>
+                The City of Los Angeles recently passed <b class="text-success">Ordinance #184674</b>, known as the <b class="text-success">Existing Building Energy and Water Efficiency</b> program or 
+                <b class="text-success">EBEWE</b>. The first group of buildings are required to comply by July 1st, 2017. In addition, the State of California passed 
+                <b class="text-success">AB 802</b> with similar requirements.
             </p>
 
             <p>
@@ -56,7 +61,7 @@
             <p class="text-success font-weight-bold">Additionally offering assistance with rebates and financing.</p>
 
             <p>
-                eBenchmarkPlus has partnered with other local professional companies to assist with installation services as follows:
+                eBenchmarkPlus has partnered with other local professional companies to assist with the following services:
             </p>
 
             <ul>
