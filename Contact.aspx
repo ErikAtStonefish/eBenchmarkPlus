@@ -4,11 +4,24 @@
 </asp:Content>
 <asp:Content ID="contactContent" ContentPlaceHolderID="MainContent" runat="Server">
     <div>
-        <h2>About Us &amp; Contact Information</h2>
+        <h2 class="text-danger">About Us &amp; Contact Information</h2>
+        <br />
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-6">
-                    <table class="table">                        
+                    <address>
+                        <strong>Mail Address</strong>
+                        <br />
+                        Post Office Box #412423
+                        <br />
+                        Los Angeles, California 90041
+                        <br />
+                        Phone - (323) 353-0255 
+                    </address>
+                    <table class="table">
+                        <tr>
+                            <td><h3 class="text-danger bg-faded">The Team</h3></td>
+                        </tr>                        
                         <tr>
                             <td class="contact-name">Debbie Smith</td>
                         </tr>
