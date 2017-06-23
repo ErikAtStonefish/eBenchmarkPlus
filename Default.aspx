@@ -65,5 +65,17 @@
                 <p class="card-text"><a href="http://www.energy.ca.gov/benchmarking/documents/AB_802_chapter_590.pdf" target="_blank" class="btn btn-primary" role="button">Read...</a></p>
             </div>
         </div>
+        <div class="card">
+            <span class="mx-auto" style="height: 120px;">
+                <img class="card-img-top mx-auto" style="padding-top:30px;" src="Images/Logos/bbla_rescenter_trns.png" alt="BetterBuildingsLA" />
+            </span>
+            <div class="card-block">
+                <h4 class="card-title">Better Buildings Los Angeles</h4>
+                <p class="card-text">Has coverage, requirements and compliance details.</p>
+            </div>
+            <div class="card-footer">
+                <p class="card-text"><a href="http://www.betterbuildingsla.com/" target="_blank" class="btn btn-primary" role="button">Visit...</a></p>
+            </div>
+        </div>
     </div>
 </asp:Content>
