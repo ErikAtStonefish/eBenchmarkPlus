@@ -24,79 +24,60 @@
     <link href="Content/sticky-footer.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <nav class="navbar navbar-toggleable-sm navbar-light fixed-top">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="#" class="navbar-brand brand-ebp">
-                <img src="Images/Logos/ebplus_logo.png" />
-            </a>
-            <div id="navbarMenu" class="collapse navbar-collapse" role="navigation">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item"><a href="Default.aspx" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="Services.aspx" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="WhyBenchmark.aspx" class="nav-link">Why Benchmark?</a></li>
-                    <li class="nav-item"><a href="Contact.aspx" class="nav-link">Contact Us</a></li>
-                    <li class="nav-item nav-link"><b style="color: #0275d8;">(323)353-0255</b></li>
-                </ul>
-            </div>
-        </nav>
+    <%--<form id="form1" runat="server">--%>
+    <nav class="navbar navbar-toggleable-sm navbar-light fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="#" class="navbar-brand brand-ebp">
+            <img src="Images/Logos/ebplus_logo.png" />
+        </a>
+        <div id="navbarMenu" class="collapse navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a href="Default.aspx" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="Services.aspx" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="WhyBenchmark.aspx" class="nav-link">Why Benchmark?</a></li>
+                <li class="nav-item"><a href="Contact.aspx" class="nav-link">Contact Us</a></li>
+                <li class="nav-item nav-link"><b style="color: #0275d8;">(323)353-0255</b></li>
+            </ul>
+        </div>
+    </nav>
 
+    <div class="container">
+        <div class="banner">
+            <div class="ebplogo">
+                <img src="Images/Logos/eBenchmarkPlus_Logo.png" class="d-inline-block" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <footer class="footer">
         <div class="container">
-            <div class="banner">
-                <div class="ebplogo">
-                    <img src="Images/Logos/eBenchmarkPlus_Logo.png" class="d-inline-block" />
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-fluid mx-auto d-block" src="Images/Logos/City%20Layout%20Image_sm.png" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p style="font-size: small" class="text-center">Copyright ©2017 eBenchmarkPlus. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img class="img-fluid mx-auto d-block" src="Images/Logos/City%20Layout%20Image_sm.png" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p style="font-size: small" class="text-center">Copyright ©2017 eBenchmarkPlus. All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </form>
+    </footer>
+    <%--</form>--%>
 
     <script src="Scripts/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
         integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="Scripts/bootstrap.min.js"></script>
-
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            var url = window.location;
-
-            var i = $('ul.nav a').filter(function () {
-                return this.href == url;
-            }).length;
-
-            if (i == 1) {
-                $('ul.nav a').filter(function () {
-                    return this.href == url;
-                }).parent().addClass('active');
-            } else {
-                $('ul.nav li').first().addClass('active');
-            }
-        });
-
-    </script>
-
+    <script src="Scripts/ebp.js" type="text/javascript" charset="utf-8"></script>
+   
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {

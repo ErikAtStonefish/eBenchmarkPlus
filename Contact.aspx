@@ -8,7 +8,45 @@
         <br />
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-6">
+                <div class="col-sm-6 col-md-5">
+                    <div class="card">
+                        <div class="card-header alert alert-info">Contact Us Today for a <strong>Free Consultation</strong></div>
+                        <div class="card-block">
+                            <form action="#" class="contact-form">
+                                <div class="form-group">
+                                    <label for="inputName" class="font-italic text-primary active">Your Name</label>
+                                    <input type="text" class="form-control" id="inputName" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputBuildingName" class="font-italic font-weight-bold text-danger">Building Name</label>
+                                    <input type="text" class="form-control" id="inputBuildingName" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputBuildingSize" class="font-italic text-primary">Building Size (In Square Feet)</label>
+                                    <select class="form-control" id="inputBuildingSize">
+                                        <option>Less Than 20,000</option>
+                                        <option>Greater Than 20,000 But Less Than 50,000</option>
+                                        <option>Greater Than 50,000 But Less Than 100,000</option>
+                                        <option selected>100,000 Square Feet or Greater</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmAdr" class="font-italic text-primary">Email Address</label>
+                                    <input type="email" class="form-control" id="inputEmAdr" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPhone" class="font-italic text-primary">Phone</label>
+                                    <input type="tel" class="form-control" id="inputPhone" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputMyMessage" class="font-italic text-primary font-weight-bold">My Message</label>
+                                    <textarea class="form-control" id="inputMyMessage" rows="3"></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
                     <address>
                         <strong>Mail Address</strong>
                         <br />
@@ -18,10 +56,15 @@
                         <br />
                         Phone - (323) 353-0255 
                     </address>
+                </div>
+
+               <%-- <div class="col-sm-6 col-md-7">
                     <table class="table">
                         <tr>
-                            <td><h3 class="text-danger bg-faded">The Team</h3></td>
-                        </tr>                        
+                            <td>
+                                <h3 class="text-danger bg-faded">The Team</h3>
+                            </td>
+                        </tr>
                         <tr>
                             <td class="contact-name">Debbie Smith</td>
                         </tr>
@@ -82,8 +125,10 @@
                             </td>
                         </tr>
                     </table>
-                </div>
+                </div>--%>
+
             </div>
+
         </div>
     </div>
 </asp:Content>

@@ -43,7 +43,7 @@
         </div>
         <div class="card">
             <span class="mx-auto" style="height: 120px;">
-                <img class="card-img-top mx-auto" style="padding-top:15px;" src="Images/LABBC.png" alt="LABBC_Logo" />
+                <img class="card-img-top mx-auto" style="padding-top: 15px;" src="Images/LABBC.png" alt="LABBC_Logo" />
             </span>
             <div class="card-block">
                 <h4 class="card-title">City of Los Angeles - LABBC</h4>
@@ -55,7 +55,7 @@
         </div>
         <div class="card">
             <span class="mx-auto" style="height: 120px;">
-                <img class="card-img-top mx-auto" style="padding-top:30px;" src="Images/CA%20header_img.png" alt="CAState_Logo" />
+                <img class="card-img-top mx-auto" style="padding-top: 30px;" src="Images/CA%20header_img.png" alt="CAState_Logo" />
             </span>
             <div class="card-block">
                 <h4 class="card-title">State of California</h4>
@@ -67,7 +67,7 @@
         </div>
         <div class="card">
             <span class="mx-auto" style="height: 120px;">
-                <img class="card-img-top mx-auto" style="padding-top:30px;" src="Images/Logos/bbla_rescenter_trns.png" alt="BetterBuildingsLA" />
+                <img class="card-img-top mx-auto" style="padding-top: 30px;" src="Images/Logos/bbla_rescenter_trns.png" alt="BetterBuildingsLA" />
             </span>
             <div class="card-block">
                 <h4 class="card-title">Better Buildings Los Angeles</h4>
@@ -78,4 +78,5 @@
             </div>
         </div>
     </div>
+
 </asp:Content>
