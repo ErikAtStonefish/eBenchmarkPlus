@@ -28,8 +28,8 @@ public partial class SendMessage : System.Web.UI.Page
         mail.Body = "Message from " + name + " at " + fromEmail + ": " +  myMessage;
         mail.IsBodyHtml = false;
 
-        SmtpClient client = new SmtpClient(MailServer);
-        client.Credentials = new System.Net.NetworkCredential(toMail, "v2cAZCUI");
+        SmtpClient client = new SmtpClient(MailServer, 587);
+        client.Credentials = new System.Net.NetworkCredential(toMail, "f!s7434Vctre");
         client.Send(mail);
     }
 }

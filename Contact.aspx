@@ -8,57 +8,17 @@
         <br />
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-5">
-                    <div class="card">
-                        <div class="card-header alert alert-info">Contact Us Today for a <strong>Free Consultation</strong></div>
-                        <div class="card-block">
-                            <form action="#" class="contact-form">
-                                <div class="form-group">
-                                    <label for="inputName" class="font-italic text-primary active">Your Name</label>
-                                    <input type="text" class="form-control" id="inputName" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputBuildingName" class="font-italic font-weight-bold text-danger">Building Name</label>
-                                    <input type="text" class="form-control" id="inputBuildingName" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputBuildingSize" class="font-italic text-primary">Building Size (In Square Feet)</label>
-                                    <select class="form-control" id="inputBuildingSize">
-                                        <option>Less Than 20,000</option>
-                                        <option>Greater Than 20,000 But Less Than 50,000</option>
-                                        <option>Greater Than 50,000 But Less Than 100,000</option>
-                                        <option selected>100,000 Square Feet or Greater</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputEmAdr" class="font-italic text-primary">Email Address</label>
-                                    <input type="email" class="form-control" id="inputEmAdr" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputPhone" class="font-italic text-primary">Phone</label>
-                                    <input type="tel" class="form-control" id="inputPhone" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputMyMessage" class="font-italic text-primary font-weight-bold">My Message</label>
-                                    <textarea class="form-control" id="inputMyMessage" rows="3"></textarea>
-                                </div>
+                <%--<address>
+                    <strong>Mail Address</strong>
+                    <br />
+                    Post Office Box #412423
+                    <br />
+                    Los Angeles, California 90041
+                    <br />
+                    Phone - (323) 353-0255 
+                </address>--%>
 
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
-                        </div>
-                    </div>
-                    <address>
-                        <strong>Mail Address</strong>
-                        <br />
-                        Post Office Box #412423
-                        <br />
-                        Los Angeles, California 90041
-                        <br />
-                        Phone - (323) 353-0255 
-                    </address>
-                </div>
-
-               <%-- <div class="col-sm-6 col-md-7">
+                <div class="col-sm-8">
                     <table class="table">
                         <tr>
                             <td>
@@ -125,10 +85,46 @@
                             </td>
                         </tr>
                     </table>
-                </div>--%>
+                </div>
+                <div class="col-sm-4" style="background-color:#fff;box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.1); padding-bottom:20px;">					
+					<h4 class="display-4 text-center text-danger">Contact Us.</h4>
+					<p class="text-primary bg-faded"><small>Thank you for your interest in <strong>eBenchMarkPlus</strong>. Please use this form to send us your questions and comments and we will get back to 
+					you right away.</small></p>
+					<form class="contact-form">
+						<div class="form-group">
+							<label for="inputName" class="small text-primary"><strong>Your Name</strong></label>
+							<input type="text" class="form-control" id="inputName"/>
+						</div>
+						<div class="form-group">
+							<label for="inputBuildingName" class="small text-primary"><strong>Building Name</strong></label>
+							<input type="text" class="form-control" id="inputBuildingName" />
+						</div>
+						<div class="form-group">
+							<label for="inputBuildingSize" class="small text-primary"><strong>Building Size (In Square Feet)</strong></label>
+							<select class="form-control" id="inputBuildingSize">
+								<option>Less Than 20,000</option>
+								<option>Greater Than 20,000 But Less Than 50,000</option>
+								<option>Greater Than 50,000 But Less Than 100,000</option>
+								<option selected>100,000 Square Feet or Greater</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="inputEmAdr" class="small text-primary"><strong>Email Address</strong></label>
+							<input type="email" class="form-control" id="inputEmAdr" />
+						</div>
+						<div class="form-group">
+							<label for="inputPhone" class="small text-primary"><strong>Phone</strong></label>
+							<input type="tel" class="form-control" id="inputPhone" />
+						</div>
+						<div class="form-group">
+							<label for="inputMyMessage" class="small text-primary"><strong>My Message</strong></label>
+							<textarea class="form-control" id="inputMyMessage" rows="3"></textarea>
+						</div>
 
+						<button type="submit" class="btn btn-primary" style="margin-top: 5px;">Submit</button>
+					</form>
+				</div>
             </div>
-
         </div>
     </div>
 </asp:Content>
