@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -18,18 +19,33 @@ public partial class SendMessage : System.Web.UI.Page
     {
         const string MailServer = "smtp.1and1.com";
         const string toMail = "info@ebenchmarkplus.com";
-        
-        
-        MailAddress fromAddr = new MailAddress(fromEmail);
-        MailAddress toAddr = new MailAddress(toMail);
-        MailMessage mail = new MailMessage(fromAddr, toAddr);
 
-        mail.Subject = "eBenchmarkPlus Consultation Request from " + name;
-        mail.Body = "Message from " + name + " at " + fromEmail + ": " +  myMessage;
-        mail.IsBodyHtml = false;
+        try
+        {
+            MailAddress fromAddr = new MailAddress(fromEmail);
+            MailAddress toAddr = new MailAddress(toMail);
+            MailMessage mail = new MailMessage(fromAddr, toAddr);
 
-        SmtpClient client = new SmtpClient(MailServer, 587);
-        client.Credentials = new System.Net.NetworkCredential(toMail, "f!s7434Vctre");
-        client.Send(mail);
+            mail.Subject = "eBenchmarkPlus Consultation Request from " + name;
+            mail.Body = "Message from " + name + " at " + fromEmail + ": " + myMessage;
+            mail.IsBodyHtml = false;
+
+            SmtpClient client = new SmtpClient(MailServer, 587);
+            client.UseDefaultCredentials = false;
+            client.Credentials = new System.Net.NetworkCredential(toMail, "f!s7434Vctre");
+            client.Send(mail);
+        }
+        catch (Exception e)
+        {
+            if (!EventLog.SourceExists("eBenchMarkPlus"))
+            {
+                EventLog.CreateEventSource("eBenchMarkPlus", "WebSiteLog");
+            }
+
+            EventLog ebpLog = new EventLog();
+            ebpLog.Source = "eBenchMarkPlus";
+
+            ebpLog.WriteEntry(e.Message);
+        }
     }
 }

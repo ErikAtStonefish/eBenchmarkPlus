@@ -16,10 +16,11 @@
     });
 
     $('.contact-form').submit(function () {
-        var name = document.getElementById("inputName").value;
+        var name = document.getElementById("inputName").value;        
         var fromEmail = document.getElementById("inputEmAdr").value;
         var myMessage = document.getElementById("inputMyMessage").value;
         var data = "{'name': '" + name + "', 'fromEmail': '" + fromEmail + "', 'myMessage': '" + myMessage + "'}";
+        console.log(name + " " + fromEmail);
 
         $.ajax({
             type: "POST",
@@ -31,5 +32,6 @@
             failure: function () {$("#id1").html("failed.");}
         });
 
+        console.log(data);
     });
 });
