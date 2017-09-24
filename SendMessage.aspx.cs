@@ -32,7 +32,7 @@ public partial class SendMessage : System.Web.UI.Page
 
             SmtpClient client = new SmtpClient(MailServer, 587);
             client.UseDefaultCredentials = false;
-            client.Credentials = new System.Net.NetworkCredential(toMail, "f!s7434Vctre");
+            client.Credentials = new System.Net.NetworkCredential(toMail, "****");
             client.Send(mail);
         }
         catch (Exception e)
