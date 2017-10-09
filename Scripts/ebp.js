@@ -16,11 +16,20 @@
     });
 
     $('.contact-form').submit(function () {
-        var name = document.getElementById("inputName").value;        
+        var name = document.getElementById("inputName").value;
+        var building = document.getElementById("inputBuildingName").value;
+        var buildingSz = document.getElementById("inputBuildingSize").value;
         var fromEmail = document.getElementById("inputEmAdr").value;
+        var phone = document.getElementById("inputPhone").value;
         var myMessage = document.getElementById("inputMyMessage").value;
-        var data = "{'name': '" + name + "', 'fromEmail': '" + fromEmail + "', 'myMessage': '" + myMessage + "'}";
-        console.log(name + " " + fromEmail);
+
+        building += " (" + buildingSz + ")";
+
+        var data = "{'name': '" + name +
+            "', 'building': '" + building + 
+            "', 'phonenum': '" + phone +
+            "', 'fromEmail': '" + fromEmail +
+            "', 'myMessage': '" + myMessage + "'}";
 
         $.ajax({
             type: "POST",
@@ -31,7 +40,5 @@
             success: function (result) { $("#id1").html(result); },
             failure: function () {$("#id1").html("failed.");}
         });
-
-        console.log(data);
     });
 });

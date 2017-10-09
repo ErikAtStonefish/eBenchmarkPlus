@@ -74,6 +74,12 @@
             </ul>
 
             <p><a href="Contact.aspx">Contact us</a> for a free consultation!</p>
+            <p>See <a href="http://www.stonefishenergy.com"><strong>Stonefish Energy Management</strong></a> for Energy Efficiency and Renewable Generation Project Management.</p>
+            <ul>
+                <li>Energy Benchmarking</li>
+                <li>ASHRAE Level 1 & Level 2 Energy Audits</li>
+                <li>Project Management (any size of Energy Efficiency Projects and Renewable Generation Projects)</li>
+            </ul>
 
         </div>
     </div>
