@@ -7,12 +7,12 @@
         <div class="col-sm-6 col-md-12">
             <p>
                 At eBenchmarkPlus, our primary business is Utility Tracking & Benchmarking buildings in the greater Los Angeles Area. 
-                We utilize the EPA’s <b>ENERGY STAR® Portfolio Manager®</b> software and perform a preliminary on-site audit.
+                We utilize the <strong>EPA</strong>’s <b>ENERGY STAR® Portfolio Manager®</b> software and perform a preliminary on-site audit.
             </p>
 
             <p>
                 The City of Los Angeles recently passed <b class="text-success">Ordinance #184674</b>, known as the <b class="text-success">Existing Building Energy and Water Efficiency</b> program or 
-                <b class="text-success">EBEWE</b>. The first group of buildings are required to comply by July 1st, 2017. In addition, the State of California passed 
+                <b class="text-success">EBEWE</b>. The first group of buildings are required to comply by December 1st, 2017 (extended from July 1st, 2017). In addition, the State of California passed 
                 <b class="text-success">AB 802</b> with similar requirements.
             </p>
 
@@ -69,17 +69,12 @@
                 <li>Sub-metering</li>
                 <li>Electrical Testing</li>
                 <li>Lighting Retrofit & Controls</li>
-                <li>ASHRAE Level Ⅱ & Level Ⅲ Audits</li>
+                <li>ASHRAE Level Ⅲ Audits</li>
                 <li>Retro-commissioning (RCx)</li>
             </ul>
 
-            <p><a href="Contact.aspx">Contact us</a> for a free consultation!</p>
-            <p>See <a href="http://www.stonefishenergy.com"><strong>Stonefish Energy Management</strong></a> for Energy Efficiency and Renewable Generation Project Management.</p>
-            <ul>
-                <li>Energy Benchmarking</li>
-                <li>ASHRAE Level 1 & Level 2 Energy Audits</li>
-                <li>Project Management (any size of Energy Efficiency Projects and Renewable Generation Projects)</li>
-            </ul>
+            <p><a href="Contact.aspx"><strong>Contact us</strong></a> for a free consultation!</p>
+            <p>See <a href="http://www.stonefishenergy.com">Stonefish Energy Management</a> for Energy Efficiency and Renewable Generation Project Management.</p>
 
         </div>
     </div>
