@@ -71,47 +71,52 @@
                 </table>
             </div>
             <div class="col-sm-4">
-                <h4 class="text-center">Contact Us.</h4>
-                <p>
-                    <small>Thank you for your interest in <strong>eBenchMarkPlus</strong>. Please use this form to send us your questions and comments and we will get back to 
+                <div id="contactUs">
+                    <h4 class="text-center">Contact Us.</h4>
+                    <p>
+                        <small>Thank you for your interest in <strong>eBenchMarkPlus</strong>. Please use this form to send us your questions and comments and we will get back to 
 					you right away.</small>
-                </p>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="inputName" class="small"><strong>Your Name</strong></label>
-                        <input type="text" class="form-control" id="inputName" />
-                    </div>
-                    <div class="form-group">
-                        <label for="inputBuildingName" class="small"><strong>Building Name</strong></label>
-                        <input type="text" class="form-control" id="inputBuildingName" />
-                    </div>
-                    <div class="form-group">
-                        <label for="inputBuildingSize" class="small"><strong>Building Size (In Square Feet)</strong></label>
-                        <select class="form-control" id="inputBuildingSize">
-                            <option>Less Than 20,000</option>
-                            <option>Greater Than 20,000 But Less Than 50,000</option>
-                            <option>Greater Than 50,000 But Less Than 100,000</option>
-                            <option selected>100,000 Square Feet or Greater</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmAdr" class="small"><strong>Email Address</strong></label>
-                        <input type="email" class="form-control" id="inputEmAdr" />
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPhone" class="small"><strong>Phone</strong></label>
-                        <input type="tel" class="form-control" id="inputPhone" />
-                    </div>
-                    <div class="form-group">
-                        <label for="inputMyMessage" class="small"><strong>My Message</strong></label>
-                        <textarea class="form-control" id="inputMyMessage" rows="3"></textarea>
-                    </div>
+                    </p>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="inputName" class="small"><strong>Your Name</strong></label>
+                            <input type="text" class="form-control" id="inputName" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputBuildingName" class="small"><strong>Building Name</strong></label>
+                            <input type="text" class="form-control" id="inputBuildingName" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputBuildingSize" class="small"><strong>Building Size (In Square Feet)</strong></label>
+                            <select class="form-control" id="inputBuildingSize">
+                                <option>Less Than 20,000</option>
+                                <option>Greater Than 20,000 But Less Than 50,000</option>
+                                <option>Greater Than 50,000 But Less Than 100,000</option>
+                                <option selected>100,000 Square Feet or Greater</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmAdr" class="small"><strong>Email Address</strong></label>
+                            <input type="email" class="form-control" id="inputEmAdr" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPhone" class="small"><strong>Phone</strong></label>
+                            <input type="tel" class="form-control" id="inputPhone" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputMyMessage" class="small"><strong>My Message</strong></label>
+                            <textarea class="form-control" id="inputMyMessage" rows="3"></textarea>
+                        </div>
 
-                    <button type="submit" class="btn btn-primary d-inline" style="margin-top: 5px;">Submit</button>
-                    <div class="d-inline alert-success invisible" id="submitMessage">
-                        <strong>Thank you!</strong> Someone will contact you soon.
-                    </div>
-                </form>
+                        <button type="submit" class="btn btn-primary d-inline" style="margin-top: 5px;">Submit</button>
+                    </form>
+                </div>
+
+                <div class="alert alert-success" id="ThankYouMessage" style="display: none;">
+                    <strong>Thank you very much for your submission</strong>! A representative from
+                    <strong>eBenchMarkPlus</strong> will be contacting you soon.
+                </div>
+
             </div>
         </div>
     </div>

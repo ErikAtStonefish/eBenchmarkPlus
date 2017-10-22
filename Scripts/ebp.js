@@ -15,30 +15,41 @@
         }
     });
 
-    $('.contact-form').submit(function () {
-        var name = document.getElementById("inputName").value;
-        var building = document.getElementById("inputBuildingName").value;
-        var buildingSz = document.getElementById("inputBuildingSize").value;
-        var fromEmail = document.getElementById("inputEmAdr").value;
-        var phone = document.getElementById("inputPhone").value;
-        var myMessage = document.getElementById("inputMyMessage").value;
+    $('.contact-form').submit(function (event) {
+        event.preventDefault();
+        
+        var name = $("#inputName").val();  
+        var building = $("#inputBuildingName").val(); 
+        var buildingSz = $("#inputBuildingSize").val();
+        var fromEmail = $("#inputEmAdr").val();
+        var phone = $("#inputPhone").val();
+        var myMessage = $("#inputMyMessage").val();
 
         building += " (" + buildingSz + ")";
 
-        var data = "{'name': '" + name +
-            "', 'building': '" + building + 
+        if (!fromEmail.trim() && !phone.trim()) {
+            alert("Please include either an email address, a phone number (or both).");
+        } else {
+            var data = "{'name': '" + name +
+            "', 'building': '" + building +
             "', 'phonenum': '" + phone +
             "', 'fromEmail': '" + fromEmail +
             "', 'myMessage': '" + myMessage + "'}";
 
-        $.ajax({
-            type: "POST",
-            url: "/SendMessage.aspx/SendContactMessage",
-            data: data,
-            contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            success: function (result) { $("#id1").html(result); },
-            failure: function () {$("#id1").html("failed.");}
-        });
+            $.ajax({
+                type: "POST",
+                url: "/SendMessage.aspx/SendContactMessage",
+                data: data,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result) { $("#id1").html(result); },
+                failure: function () { $("#id1").html("failed."); }
+            });
+
+            $("#contactUs").hide(function () {
+                $("#ThankYouMessage").show();
+            });
+
+        }
     });
 });
