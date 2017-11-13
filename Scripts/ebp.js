@@ -46,10 +46,46 @@
                 failure: function () { $("#id1").html("failed."); }
             });
 
-            $("#contactUs").hide(function () {
-                $("#ThankYouMessage").show();
+            $(".contact-us").hide(function () {
+                $(".thank-you-message").show();
+            });
+        }
+    });
+
+    $('.footer-contact-form').submit(function (event) {
+        event.preventDefault();
+
+        var inputFirstLast = $("#inputFirstLast").val();
+        var inputPhone = $("#inputPhone").val();
+        var inputEmail = $("#inputEmail").val();
+        var inputPropName = $("#inputPropName").val();
+
+        var myMessage = "Message originated from the footer contact form.";
+
+        if (!inputPhone.trim() && !inputEmail.trim()) {
+            alert("Please include either an email address, a phone number (or both).");
+        } else if (!inputFirstLast.trim()) {
+            alert("Please include the name of the person we are contacting.");
+        } else {
+            var data = "{'name': '" + inputFirstLast +
+            "', 'building': '" + inputPropName +
+            "', 'phonenum': '" + inputPhone +
+            "', 'fromEmail': '" + inputEmail +
+            "', 'myMessage': '" + myMessage + "'}";
+
+            $.ajax({
+                type: "POST",
+                url: "/SendMessage.aspx/SendContactMessage",
+                data: data,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result) { $("#id1").html(result); },
+                failure: function () { $("#id1").html("failed."); }
             });
 
+            $(".contact-us").hide(function () {
+                $(".thank-you-message").show();
+            });
         }
     });
 });

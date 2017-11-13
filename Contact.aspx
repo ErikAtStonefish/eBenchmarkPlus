@@ -71,7 +71,7 @@
                 </table>
             </div>
             <div class="col-sm-4">
-                <div id="contactUs">
+                <div class="contact-us">
                     <h4 class="text-center">Contact Us.</h4>
                     <p>
                         <small>Thank you for your interest in <strong>eBenchMarkPlus</strong>. Please use this form to send us your questions and comments and we will get back to 
@@ -112,7 +112,7 @@
                     </form>
                 </div>
 
-                <div class="alert alert-success" id="ThankYouMessage" style="display: none;">
+                <div class="alert alert-success thank-you-message" style="display: none;">
                     <strong>Thank you very much for your submission</strong>! A representative from
                     <strong>eBenchMarkPlus</strong> will be contacting you soon.
                 </div>

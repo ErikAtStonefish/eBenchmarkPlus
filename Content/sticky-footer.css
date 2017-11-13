@@ -13,10 +13,36 @@ body {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: stom ;
+  height: 1px;
+  background-color: #f5f5f5;
 }
 
+.footer .nav-item {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #454343;
+    background-color: inherit;
+    border: inherit;
+}
+
+.footer .nav-item .nav-link {
+    padding: 0;
+    padding-bottom: 3px;
+}
+
+.footer .nav-item .active {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #454343;
+    background-color: inherit;
+    border: inherit;
+}
+
+.footer .container-fluid {
+    background-color: #DEE1E3;
+}
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -29,4 +55,12 @@ body {
 }*/
 .container .text-muted {
   margin: 20px 0;
+}
+
+.footer-menu-header {
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #454343;
 }

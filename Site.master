@@ -50,22 +50,75 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container">
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         </asp:ContentPlaceHolder>
     </div>
 
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <img class="img-fluid mx-auto d-block" src="Images/Logos/City%20Layout%20Image_sm.png" />
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <%--<div class="col-md-12">
+                        <img class="img-fluid mx-auto d-block" src="Images/Logos/City%20Layout%20Image_sm.png" />
+                    </div>--%>
+                    <div class="col-md-2">
+                        <div class="footer-column">
+                            <div class="footer-menu-header">Menu</div>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a href="Default.aspx" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="Services.aspx" class="nav-link">Services</a></li>
+                                <li class="nav-item"><a href="WhyBenchmark.aspx" class="nav-link">Why Benchmark?</a></li>
+                                <li class="nav-item"><a href="Contact.aspx" class="nav-link">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-column">
+                            <div class="footer-menu-header">Benchmarking Sources</div>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Los Angeles Ordinance No. 184674</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">State of California Assembly Bill No. 802</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Better Buildings Los Angeles</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="container rounded" id="freeConsForm">
+                            <div class="footer-menu-header">Request a Free Consultation</div>
+                            <form class="footer-contact-form contact-us">
+                                <input type="text" class="form-control" placeholder="Name (First, Last)" id="inputFirstLast" />
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="tel" class="form-control" placeholder="Phone #" id="inputPhone" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control" placeholder="Email" id="inputEmail" />
+                                    </div>
+                                </div>
+
+                                <input type="text" class="form-control" placeholder="Property Name | Description" id="inputPropName" />
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+
+                            <div class="alert alert-success thank-you-message" style="display: none;">
+                                <strong>Thank you very much for your submission</strong>! A representative from
+                                <strong>eBenchMarkPlus</strong> will be contacting you soon.
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p style="font-size: small" class="text-center">Copyright ©2017 eBenchmarkPlus. All Rights Reserved.</p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p style="font-size: small" class="text-center">Copyright ©2017 eBenchmarkPlus. All Rights Reserved.</p>
+                    </div>
                 </div>
             </div>
         </div>

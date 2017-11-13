@@ -74,3 +74,26 @@ nav {
 	position: absolute;
 }
 
+#freeConsForm {
+    background-color: #DEE1E3;
+    margin: 3px 2px;
+}
+
+#freeConsForm .btn {
+    padding: 4px 6px;
+    margin-top: 5px;
+}
+
+#freeConsForm input {
+    font-size: small;
+    background-color: #f0f0f0;
+    padding: 4px 6px;
+}
+
+.footer-column {
+    padding: 5px 0;
+}
+
+.footer-contact-form {
+    padding-bottom: 5px;
+}
