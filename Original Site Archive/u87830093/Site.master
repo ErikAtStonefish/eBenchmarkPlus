@@ -1,0 +1,39 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>eBenchmark Plus</title>
+    <asp:contentplaceholder id="head" runat="server"></asp:contentplaceholder>
+    <link href="mainstyle.css" rel="stylesheet" type="text/css" />
+    <link rel="Shortcut Icon" href="/images/favicon.png" type="image/x-icon" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="top">
+            <div class="logo">
+                <img src="Images/eBenchmark Plus%20Logo.png" alt="eBenchmark Plus logo" />
+            </div>
+        </div>
+        <div class="topmenu">
+            <div class="menucontainer">
+                <div class="menuitem first"><a href="Default.aspx">Home</a></div>                
+                <%--<div class="menuitem"><a href="AboutUs.aspx">About Us</a></div>
+                <div class="menuitem"><a href="Services.aspx">Services</a></div>--%>
+                <div class="menuitem"><a href="Contact.aspx">Contact Us</a></div>
+            </div>
+        </div>
+        <div class="left">            
+        </div>
+        <div class="content">
+            <asp:contentplaceholder id="MainContent" runat="server">
+            </asp:contentplaceholder>            
+        </div>
+        
+    </div>
+    </form>
+    <%--<div class="bottom"><p>eBenchmark Plus - 2017</p></div>--%>
+</body>
+</html>

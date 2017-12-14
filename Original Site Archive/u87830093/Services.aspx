@@ -17,7 +17,7 @@
             Quisque convallis purus dolor, nec luctus ex accumsan eu. Nullam faucibus eu est sit amet consectetur. Nullam ultricies eros ac lectus tristique 
             pharetra at sed ante.       
         </p>
-        <div><img src="" alt="eBenchmarkPlus logo" /></div>
+        <div><img src="" alt="eBenchmark Plus logo" /></div>
     </div>
 </asp:Content>
 

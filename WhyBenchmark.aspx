@@ -1,11 +1,11 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="WhyBenchmark.aspx.cs" Inherits="WhyBenchmark" MasterPageFile="~/Site.master" %>
 
 <asp:Content ID="WhyBenchmarkMainContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h1>Why Benchmark your Building?</h1>
+    <h4>Why Benchmark your Building?</h4>
 
     <div class="row">
         <div class="col-sm-6 col-md-12">
-            <h3>It Makes Financial Sense</h3>
+            <h5>It Makes Financial Sense</h5>
 
             <p>
                 Tracking utility usage history provides insight into energy consumption for a given facility. 
@@ -18,13 +18,13 @@
     </div>
     <div class="row">
         <div class="col-sm-6 col-md-12">
-            <h3>It is now Mandatory in the State of California and the City of Los Angeles</h3>
+            <h5>It is now Mandatory in the State of California and the City of Los Angeles</h5>
 
             <p>
                 Due to recent California legislation, utility tracking and benchmarking of most buildings is no longer 
                 a choice but has become law. California passed a statewide mandatory annual energy benchmarking disclosure law. 
                 CA AB 802 was enacted and went into effect as of January 1st, 2017. The City of Los Angeles now has passed 
-                Ordinance #184674 and this city regulation requires most buildings to perform energy benchmarking 
+                Ordinances #184674 &amp; #185198 and this city regulation requires most buildings to perform energy benchmarking 
                 starting in 2017.
             </p>
             <p>
@@ -35,9 +35,9 @@
     </div>
     <div class="row">
         <div class="col-sm-6 col-md-12">
-            <h3>Next Step?</h3>
+            <h5>Next Step?</h5>
 
-            <p><a href="Contact.aspx">Contact us</a> at eBenchmarkPlus for a free consultation!</p>
+            <p><a href="Contact.aspx">Contact us</a> at eBenchmark Plus for a free consultation!</p>
         </div>
     </div>
 

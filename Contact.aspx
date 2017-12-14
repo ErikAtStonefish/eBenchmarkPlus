@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
-                <h2>About Us &amp; Contact Information</h2>
+                <h3>About Us &amp; Contact Information</h3>
                 <br />
                 <table class="table">
                     <tr>
@@ -16,11 +16,11 @@
                         <td>Phone - (323) 353-0255</td>
                     </tr>
                     <tr>
-                        <td>Email - <a href="mailto:debbie@ebenchmarkplus.com">debbie@ebenchmarkplus.com</a></td>
+                        <td>Email - <a href="mailto:debbie@eBenchmarkPlus.com">debbie@eBenchmarkPlus.com</a></td>
                     </tr>
                     <tr>
                         <td>
-                            <h3>BIO</h3>
+                            <h5>BIO</h5>
                             <ul>
                                 <li>Certified Energy Manager (CEM®)</li>
                                 <li>Project Management Professional (PMP®)</li>
@@ -35,11 +35,11 @@
                         <td class="contact-name">Erik Nelson</td>
                     </tr>
                     <tr>
-                        <td>Email - <a href="mailto:erik.nelson@ebenchmarkplus.com">erik.nelson@ebenchmarkplus.com</a></td>
+                        <td>Email - <a href="mailto:erik.nelson@eBenchmarkPlus.com">erik.nelson@eBenchmarkPlus.com</a></td>
                     </tr>
                     <tr>
                         <td>
-                            <h3>BIO</h3>
+                            <h5>BIO</h5>
                             <ul>
                                 <li>IT Professional with 25 years experience in software systems architecture, application and website development, 
                                         database design and development, business and systems analysis across multiple fields including healthcare and automotive.</li>
@@ -54,11 +54,11 @@
                         <td>Phone - (951) 203-3387</td>
                     </tr>
                     <tr>
-                        <td>Email - <a href="mailto:wayne@ebenchmarkplus.com">wayne@ebenchmarkplus.com</a></td>
+                        <td>Email - <a href="mailto:wayne@eBenchmarkPlus.com">wayne@eBenchmarkPlus.com</a></td>
                     </tr>
                     <tr>
                         <td>
-                            <h3>BIO</h3>
+                            <h5>BIO</h5>
                             <ul>
                                 <li>President and Co-owner of Energy Design, Inc. (21 years)</li>
                                 <li>Southern California Edison, 37 years (retired 1994), Service Planner (1969 - 1994)</li>
@@ -74,7 +74,7 @@
                 <div class="contact-us">
                     <h4 class="text-center">Contact Us.</h4>
                     <p>
-                        <small>Thank you for your interest in <strong>eBenchMarkPlus</strong>. Please use this form to send us your questions and comments and we will get back to 
+                        <small>Thank you for your interest in <strong>eBenchmark Plus</strong>. Please use this form to send us your questions and comments and we will get back to 
 					you right away.</small>
                     </p>
                     <form class="contact-form">
@@ -114,7 +114,7 @@
 
                 <div class="alert alert-success thank-you-message" style="display: none;">
                     <strong>Thank you very much for your submission</strong>! A representative from
-                    <strong>eBenchMarkPlus</strong> will be contacting you soon.
+                    <strong>eBenchmark Plus</strong> will be contacting you soon.
                 </div>
 
             </div>

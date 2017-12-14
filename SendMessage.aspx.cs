@@ -21,7 +21,7 @@ public partial class SendMessage : System.Web.UI.Page
     public static void SendContactMessage(string name, string building, string phonenum, string fromEmail, string myMessage)
     {
         const string MailServer = "smtp.1and1.com";
-        const string toMail = "info@ebenchmarkplus.com";
+        const string toMail = "info@eBenchmark Plus.com";
 
         try
         {
@@ -36,7 +36,7 @@ public partial class SendMessage : System.Web.UI.Page
             sbBody.AppendLine();
             sbBody.AppendFormat("Message: {0}", myMessage);
 
-            mail.Subject = "eBenchmarkPlus Consultation Request from " + name;
+            mail.Subject = "eBenchmark Plus Consultation Request from " + name;
             mail.Body = sbBody.ToString();
             mail.IsBodyHtml = false;
 
@@ -47,13 +47,13 @@ public partial class SendMessage : System.Web.UI.Page
         }
         catch (Exception e)
         {
-            if (!EventLog.SourceExists("eBenchMarkPlus"))
+            if (!EventLog.SourceExists("eBenchmark Plus"))
             {
-                EventLog.CreateEventSource("eBenchMarkPlus", "WebSiteLog");
+                EventLog.CreateEventSource("eBenchmark Plus", "WebSiteLog");
             }
 
             EventLog ebpLog = new EventLog();
-            ebpLog.Source = "eBenchMarkPlus";
+            ebpLog.Source = "eBenchmark Plus";
 
             ebpLog.WriteEntry(e.Message);
         }

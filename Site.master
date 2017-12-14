@@ -9,9 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Los Angeles EBEWE Compliance Services | eBenchmarkPlus</title>
+    <title>Los Angeles EBEWE Compliance Services | eBenchmark Plus</title>
 
-    <meta name="description" content="eBenchmarkPlus.com, offering City of Los Angeles EBEWE Program Compliance, energy benchmarking and auditing 
+    <meta name="description" content="eBenchmark Plus.com, offering City of Los Angeles EBEWE Program Compliance, energy benchmarking and auditing 
         services, as well as energy Project Management" />
 
     <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
@@ -22,6 +22,16 @@
     <link rel="Shortcut Icon" href="/images/favicon.png" type="image/x-icon" />
     <link href="Content/ebp.css" rel="stylesheet" type="text/css" />
     <link href="Content/sticky-footer.css" rel="stylesheet" type="text/css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101965800-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-101965800-1');
+    </script>
 </head>
 <body>
     <%--<form id="form1" runat="server">--%>
@@ -74,25 +84,25 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="footer-column">
                             <div class="footer-menu-header">Benchmarking Sources</div>
                             <ul class="nav flex-column">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Los Angeles Ordinance No. 184674</a>
+                                    <a class="nav-link" href="http://clkrep.lacity.org/onlinedocs/2014/14-1478_ORD_184674_12-15-16.pdf">Los Angeles Ordinances No. 184674 &amp; No. 185198</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">State of California Assembly Bill No. 802</a>
+                                    <a class="nav-link" href="http://www.energy.ca.gov/benchmarking/documents/AB_802_chapter_590.pdf">State of California Assembly Bill No. 802</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Better Buildings Los Angeles</a>
+                                    <a class="nav-link" href="http://www.betterbuildingsla.com/">Better Buildings Los Angeles</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-7">
                         <div class="container rounded" id="freeConsForm">
-                            <div class="footer-menu-header">Request a Free Consultation</div>
+                            <%--<div class="footer-menu-header">Request a Free Consultation</div>
                             <form class="footer-contact-form contact-us">
                                 <input type="text" class="form-control" placeholder="Name (First, Last)" id="inputFirstLast" />
                                 <div class="row">
@@ -106,18 +116,18 @@
 
                                 <input type="text" class="form-control" placeholder="Property Name | Description" id="inputPropName" />
                                 <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
+                            </form>--%>
 
                             <div class="alert alert-success thank-you-message" style="display: none;">
                                 <strong>Thank you very much for your submission</strong>! A representative from
-                                <strong>eBenchMarkPlus</strong> will be contacting you soon.
+                                <strong>eBenchmark Plus</strong> will be contacting you soon.
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <p style="font-size: small" class="text-center">Copyright ©2017 eBenchmarkPlus. All Rights Reserved.</p>
+                        <p style="font-size: small" class="text-center">Copyright ©2017 eBenchmark Plus. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

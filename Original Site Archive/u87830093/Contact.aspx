@@ -13,7 +13,7 @@
                     <td>Phone - (951) 203-3387</td>                    
                 </tr>
                 <tr>
-                    <td>Email - <a href="mailto:wayne@ebenchmarkplus.com">wayne@ebenchmarkplus.com</a></td>                    
+                    <td>Email - <a href="mailto:wayne@eBenchmark Plus.com">wayne@eBenchmark Plus.com</a></td>                    
                 </tr>
                 <tr>
                     <td>
@@ -36,7 +36,7 @@
                     <td>Phone - (323) 353-0255</td>                    
                 </tr>
                 <tr>
-                    <td>Email - <a href="mailto:debbie@ebenchmarkplus.com">debbie@ebenchmarkplus.com</a></td>                    
+                    <td>Email - <a href="mailto:debbie@eBenchmark Plus.com">debbie@eBenchmark Plus.com</a></td>                    
                 </tr>
                 <tr>
                     <td>

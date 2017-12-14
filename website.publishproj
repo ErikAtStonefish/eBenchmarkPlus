@@ -20,7 +20,7 @@ Copyright (C) Microsoft Corporation. All rights reserved.
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{b6b3717c-a951-4ebf-93ea-dd2dac453f47}</ProjectGuid>
     <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
-    <SourceWebVirtualPath>/eBenchmarkplus.com</SourceWebVirtualPath>
+    <SourceWebVirtualPath>/eBenchmark Plus.com</SourceWebVirtualPath>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <SourceWebProject>http://localhost:60696</SourceWebProject>
     <SourceWebMetabasePath>/IISExpress/7.5/LM/W3SVC/11/ROOT</SourceWebMetabasePath>

@@ -1,34 +1,34 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Services.aspx.cs" Inherits="_Services" MasterPageFile="~/Site.master" %>
 
 <asp:Content ID="ServicesMainContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h1>Our Services</h1>
+    <h2>Our Services</h2>
 
     <div class="row">
         <div class="col-sm-6 col-md-12">
             <p>
-                At eBenchmarkPlus, our primary business is Utility Tracking & Benchmarking buildings in the greater Los Angeles Area. 
+                At eBenchmark Plus, our primary business is Utility Tracking & Benchmarking buildings in the greater Los Angeles Area. 
                 We utilize the <strong>EPA</strong>’s <b>ENERGY STAR® Portfolio Manager®</b> software and perform a preliminary on-site audit.
             </p>
 
             <p>
-                The City of Los Angeles recently passed <b class="text-success">Ordinance #184674</b>, known as the <b class="text-success">Existing Building Energy and Water Efficiency</b> program or 
-                <b class="text-success">EBEWE</b>. The first group of buildings are required to comply by December 1st, 2017 (extended from July 1st, 2017). In addition, the State of California passed 
+                The City of Los Angeles recently passed <b class="text-success">Ordinances #184674 and #185198</b>, known as the 
+                <b class="text-success">Existing Building Energy and Water Efficiency</b> program or <b class="text-success">EBEWE</b>. The first group of 
+                buildings are required to comply by December 1st, 2017 (extended from July 1st, 2017). In addition, the State of California passed 
                 <b class="text-success">AB 802</b> with similar requirements.
             </p>
 
             <p>
-                Your building(s) may be eligible for ENERGY STAR® certification. Buildings that score 75 and better will be exempt from ASHRAE Level II and
-                retro-commissioning (RCx) requirements. Buildings are also exempt when a 15% reduction in energy and 20% reduction in water usage for each reporting period is documented. 
-                ASHRAE Level II &amp; RCx compliance starts in January, 2019.
+                Your building(s) may be eligible for ENERGY STAR® certification. Buildings that score 75 and better will be exempt from retro-commissioning (RCx) 
+                requirements. RCx compliance starts in January, 2019. A facility that documents 15% energy reduction and 20% water reduction can choose not to perform RCx services.
             </p>
 
             <p>
-                eBenchmarkPlus also conducts preliminary on-site and ASHRAE Level Ⅰ audits which allows us to assist building owners and managers to find 
+                eBenchmark Plus also conducts preliminary on-site and ASHRAE Level Ⅰ audits which allows us to assist building owners and managers to find 
                 those “no-cost” or “low-cost” energy savings opportunities.
             </p>
 
             <p>
-                eBenchmarkPlus provides <b>consulting</b> and <b>project management</b> services for <b class="text-success">energy conservation opportunities</b> in:
+                eBenchmark Plus provides <b>consulting</b> and <b>project management</b> services for <b class="text-success">energy conservation opportunities</b> in:
             </p>
 
             <div class="row">
@@ -37,7 +37,7 @@
                         <li>Electrical Systems</li>
                         <li>Electric Motor &amp; Drives</li>
                         <li>Lighting Systems</li>
-                        <li>HVAC</li>
+                        <li>HVAC / Chiller</li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-4">
@@ -51,7 +51,8 @@
                 <div class="col-md-4 col-sm-4">
                     <ul>
                         <li>Battery Storage</li>
-                        <li>CHP &amp; Renewable Energy</li>
+                        <li>CHP</li>
+                        <li>Renewable Energy</li>
                         <li>Building Automation &amp; Control Systems</li>
                         <li>Maintenance &amp; Commissioning</li>
                     </ul>
@@ -61,7 +62,7 @@
             <p class="text-success font-weight-bold">Additionally offering assistance with rebates and financing.</p>
 
             <p>
-                eBenchmarkPlus has partnered with other local professional companies to assist with the following services:
+                eBenchmark Plus has partnered with other local professional companies to assist with the following services:
             </p>
 
             <ul>
